@@ -1,0 +1,900 @@
+# depslib dependency file v1.0
+1646138373 source:/home/marci/Codeblocks/Grafika/Gyak_02/main.cpp
+	<exception>
+	<string>
+	<iostream>
+	<SDL.h>
+
+1641608992 /usr/include/SDL2/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641872497 /usr/include/SDL2/SDL_config.h
+	"SDL_config-i386.h"
+	"SDL_config-ia64.h"
+	"SDL_config-ppc64.h"
+	"SDL_config-ppc64le.h"
+	"SDL_config-ppc.h"
+	"SDL_config-s390x.h"
+	"SDL_config-s390.h"
+	"SDL_config-x86_64.h"
+	"SDL_config-arm.h"
+	"SDL_config-alpha.h"
+	"SDL_config-sparc64.h"
+	"SDL_config-sparc.h"
+	"SDL_config-aarch64.h"
+	"SDL_config-mips64el.h"
+	"SDL_config-mips64.h"
+	"SDL_config-mipsel.h"
+	"SDL_config-mips.h"
+	"SDL_config-riscv64.h"
+
+1641872664 /usr/include/SDL2/SDL_config-x86_64.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1641608992 /usr/include/SDL2/SDL_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/begin_code.h
+
+1641608992 /usr/include/SDL2/close_code.h
+
+1643909552 /usr/include//sys/types.h
+	<features.h>
+	<bits/types.h>
+	<bits/types/clock_t.h>
+	<bits/types/clockid_t.h>
+	<bits/types/time_t.h>
+	<bits/types/timer_t.h>
+	<stddef.h>
+	<bits/stdint-intn.h>
+	<endian.h>
+	<sys/select.h>
+	<bits/pthreadtypes.h>
+
+1643909541 /usr/include//features.h
+	<features-time64.h>
+	<stdc-predef.h>
+	<sys/cdefs.h>
+	<gnu/stubs.h>
+
+1643909541 /usr/include//features-time64.h
+	<bits/wordsize.h>
+	<bits/timesize.h>
+
+1643909548 /usr/include//bits/wordsize.h
+
+1643909548 /usr/include//bits/timesize.h
+
+1643909541 /usr/include//stdc-predef.h
+
+1643909553 /usr/include//sys/cdefs.h
+	<features.h>
+	<bits/wordsize.h>
+	<bits/long-double.h>
+
+1643909546 /usr/include//bits/long-double.h
+
+1643909541 /usr/include//gnu/stubs.h
+	<gnu/stubs-32.h>
+	<gnu/stubs-64.h>
+	<gnu/stubs-x32.h>
+
+1643909553 /usr/include//gnu/stubs-64.h
+
+1643909552 /usr/include//bits/types.h
+	<features.h>
+	<bits/wordsize.h>
+	<bits/timesize.h>
+	<bits/typesizes.h>
+	<bits/time64.h>
+
+1643909552 /usr/include//bits/typesizes.h
+
+1643909548 /usr/include//bits/time64.h
+
+1643909551 /usr/include//bits/types/clock_t.h
+	<bits/types.h>
+
+1643909551 /usr/include//bits/types/clockid_t.h
+	<bits/types.h>
+
+1643909551 /usr/include//bits/types/time_t.h
+	<bits/types.h>
+
+1643909551 /usr/include//bits/types/timer_t.h
+	<bits/types.h>
+
+1643909548 /usr/include//bits/stdint-intn.h
+	<bits/types.h>
+
+1643909550 /usr/include//endian.h
+	<features.h>
+	<bits/endian.h>
+	<bits/byteswap.h>
+	<bits/uintn-identity.h>
+
+1643909550 /usr/include//bits/endian.h
+	<bits/endianness.h>
+
+1643909550 /usr/include//bits/endianness.h
+
+1643909550 /usr/include//bits/byteswap.h
+	<features.h>
+	<bits/types.h>
+
+1643909550 /usr/include//bits/uintn-identity.h
+	<bits/types.h>
+
+1643909553 /usr/include//sys/select.h
+	<features.h>
+	<bits/types.h>
+	<bits/select.h>
+	<bits/types/sigset_t.h>
+	<bits/types/time_t.h>
+	<bits/types/struct_timeval.h>
+	<bits/types/struct_timespec.h>
+	<bits/select2.h>
+
+1643909553 /usr/include//bits/select.h
+
+1643909547 /usr/include//bits/types/sigset_t.h
+	<bits/types/__sigset_t.h>
+
+1643909547 /usr/include//bits/types/__sigset_t.h
+
+1643909551 /usr/include//bits/types/struct_timeval.h
+	<bits/types.h>
+
+1643909551 /usr/include//bits/types/struct_timespec.h
+	<bits/types.h>
+	<bits/endian.h>
+	<bits/types/time_t.h>
+
+1643909553 /usr/include//bits/select2.h
+
+1643909552 /usr/include//bits/pthreadtypes.h
+	<bits/thread-shared-types.h>
+
+1643909552 /usr/include//bits/thread-shared-types.h
+	<bits/pthreadtypes-arch.h>
+	<bits/struct_mutex.h>
+	<bits/struct_rwlock.h>
+
+1643909552 /usr/include//bits/pthreadtypes-arch.h
+	<bits/wordsize.h>
+
+1643909550 /usr/include//bits/struct_mutex.h
+
+1643909550 /usr/include//bits/struct_rwlock.h
+
+1643909549 /usr/include//stdio.h
+	<bits/libc-header-start.h>
+	<stddef.h>
+	<stdarg.h>
+	<bits/types.h>
+	<bits/types/__fpos_t.h>
+	<bits/types/__fpos64_t.h>
+	<bits/types/__FILE.h>
+	<bits/types/FILE.h>
+	<bits/types/struct_FILE.h>
+	<bits/types/cookie_io_functions_t.h>
+	<stdarg.h>
+	<bits/stdio_lim.h>
+	<bits/floatn.h>
+	<bits/getopt_posix.h>
+	<bits/stdio.h>
+	<bits/stdio2.h>
+	<bits/floatn.h>
+	<bits/stdio-ldbl.h>
+
+1643909541 /usr/include//bits/libc-header-start.h
+	<features.h>
+
+1643909549 /usr/include//bits/types/__fpos_t.h
+	<bits/types.h>
+	<bits/types/__mbstate_t.h>
+
+1643909551 /usr/include//bits/types/__mbstate_t.h
+
+1643909549 /usr/include//bits/types/__fpos64_t.h
+	<bits/types.h>
+	<bits/types/__mbstate_t.h>
+
+1643909549 /usr/include//bits/types/__FILE.h
+
+1643909549 /usr/include//bits/types/FILE.h
+
+1643909549 /usr/include//bits/types/struct_FILE.h
+	<bits/types.h>
+
+1643909549 /usr/include//bits/types/cookie_io_functions_t.h
+	<bits/types.h>
+
+1643909548 /usr/include//bits/stdio_lim.h
+
+1643909546 /usr/include//bits/floatn.h
+	<features.h>
+	<bits/floatn-common.h>
+
+1643909546 /usr/include//bits/floatn-common.h
+	<features.h>
+	<bits/long-double.h>
+
+1643909552 /usr/include//bits/getopt_posix.h
+	<bits/getopt_core.h>
+
+1643909552 /usr/include//bits/getopt_core.h
+
+1643909549 /usr/include//bits/stdio.h
+
+1643909549 /usr/include//bits/stdio2.h
+
+1643909549 /usr/include//bits/stdio-ldbl.h
+
+1643909548 /usr/include//stdlib.h
+	<bits/libc-header-start.h>
+	<stddef.h>
+	<bits/waitflags.h>
+	<bits/waitstatus.h>
+	<bits/floatn.h>
+	<bits/types/locale_t.h>
+	<sys/types.h>
+	<alloca.h>
+	<bits/stdlib-bsearch.h>
+	<bits/stdlib-float.h>
+	<bits/stdlib.h>
+	<bits/floatn.h>
+	<bits/stdlib-ldbl.h>
+
+1643909552 /usr/include//bits/waitflags.h
+
+1643909552 /usr/include//bits/waitstatus.h
+
+1643909542 /usr/include//bits/types/locale_t.h
+	<bits/types/__locale_t.h>
+
+1643909542 /usr/include//bits/types/__locale_t.h
+
+1643909548 /usr/include//alloca.h
+	<features.h>
+	<stddef.h>
+
+1643909548 /usr/include//bits/stdlib-bsearch.h
+
+1643909548 /usr/include//bits/stdlib-float.h
+
+1643909548 /usr/include//bits/stdlib.h
+
+1643909548 /usr/include//bits/stdlib-ldbl.h
+
+1643909550 /usr/include//malloc.h
+	<features.h>
+	<stddef.h>
+	<stdio.h>
+
+1643909550 /usr/include//memory.h
+	<features.h>
+	<string.h>
+
+1643909550 /usr/include//string.h
+	<bits/libc-header-start.h>
+	<stddef.h>
+	<bits/types/locale_t.h>
+	<strings.h>
+	<bits/string_fortified.h>
+
+1643909550 /usr/include//strings.h
+	<features.h>
+	<stddef.h>
+	<bits/types/locale_t.h>
+	<bits/strings_fortified.h>
+
+1643909550 /usr/include//bits/strings_fortified.h
+
+1643909550 /usr/include//bits/string_fortified.h
+	<bits/strings_fortified.h>
+
+1643909551 /usr/include//wchar.h
+	<bits/libc-header-start.h>
+	<bits/floatn.h>
+	<stddef.h>
+	<stdarg.h>
+	<bits/wchar.h>
+	<bits/types/wint_t.h>
+	<bits/types/mbstate_t.h>
+	<bits/types/__FILE.h>
+	<bits/types/FILE.h>
+	<bits/types/locale_t.h>
+	<bits/wctype-wchar.h>
+	<bits/wchar2.h>
+	<bits/floatn.h>
+	<bits/wchar-ldbl.h>
+
+1643909551 /usr/include//bits/wchar.h
+
+1643909551 /usr/include//bits/types/wint_t.h
+
+1643909551 /usr/include//bits/types/mbstate_t.h
+	<bits/types/__mbstate_t.h>
+
+1643909554 /usr/include//bits/wctype-wchar.h
+	<bits/types.h>
+	<bits/types/wint_t.h>
+	<bits/endian.h>
+
+1643909551 /usr/include//bits/wchar2.h
+
+1643909551 /usr/include//bits/wchar-ldbl.h
+
+1643909548 /usr/include//inttypes.h
+	<features.h>
+	<stdint.h>
+	<stddef.h>
+
+1643909548 /usr/include//stdint.h
+	<bits/libc-header-start.h>
+	<bits/types.h>
+	<bits/wchar.h>
+	<bits/wordsize.h>
+	<bits/stdint-intn.h>
+	<bits/stdint-uintn.h>
+
+1643909548 /usr/include//bits/stdint-uintn.h
+	<bits/types.h>
+
+1643909544 /usr/include//ctype.h
+	<features.h>
+	<bits/types.h>
+	<bits/endian.h>
+	<bits/types/locale_t.h>
+
+1643909546 /usr/include//math.h
+	<bits/libc-header-start.h>
+	<bits/types.h>
+	<bits/math-vector.h>
+	<bits/floatn.h>
+	<bits/flt-eval-method.h>
+	<bits/fp-logb.h>
+	<bits/fp-fast.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/iscanonical.h>
+
+1643909546 /usr/include//bits/math-vector.h
+	<bits/libm-simd-decl-stubs.h>
+
+1643909546 /usr/include//bits/libm-simd-decl-stubs.h
+
+1643909546 /usr/include//bits/flt-eval-method.h
+
+1643909546 /usr/include//bits/fp-logb.h
+
+1643909546 /usr/include//bits/fp-fast.h
+
+1643909546 /usr/include//bits/mathcalls-helper-functions.h
+
+1643909546 /usr/include//bits/mathcalls.h
+
+1643909546 /usr/include//bits/mathcalls-narrow.h
+
+1643909546 /usr/include//bits/iscanonical.h
+
+1641608992 /usr/include/SDL2/SDL_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1643909547 /usr/include//signal.h
+	<features.h>
+	<bits/types.h>
+	<bits/signum-generic.h>
+	<bits/types/sig_atomic_t.h>
+	<bits/types/sigset_t.h>
+	<bits/types/struct_timespec.h>
+	<bits/types/siginfo_t.h>
+	<bits/siginfo-consts.h>
+	<bits/types/sigval_t.h>
+	<bits/types/sigevent_t.h>
+	<bits/sigevent-consts.h>
+	<bits/sigaction.h>
+	<bits/sigcontext.h>
+	<stddef.h>
+	<bits/types/stack_t.h>
+	<sys/ucontext.h>
+	<bits/sigstack.h>
+	<bits/sigstksz.h>
+	<bits/ss_flags.h>
+	<bits/types/struct_sigstack.h>
+	<bits/pthreadtypes.h>
+	<bits/sigthread.h>
+	<bits/signal_ext.h>
+
+1643909547 /usr/include//bits/signum-generic.h
+	<bits/signum-arch.h>
+
+1643909547 /usr/include//bits/signum-arch.h
+
+1643909547 /usr/include//bits/types/sig_atomic_t.h
+	<bits/types.h>
+
+1643909547 /usr/include//bits/types/siginfo_t.h
+	<bits/wordsize.h>
+	<bits/types.h>
+	<bits/types/__sigval_t.h>
+	<bits/siginfo-arch.h>
+
+1643909547 /usr/include//bits/types/__sigval_t.h
+
+1643909553 /usr/include//bits/siginfo-arch.h
+
+1643909547 /usr/include//bits/siginfo-consts.h
+	<bits/siginfo-arch.h>
+	<bits/siginfo-consts-arch.h>
+
+1643909553 /usr/include//bits/siginfo-consts-arch.h
+
+1643909547 /usr/include//bits/types/sigval_t.h
+	<bits/types/__sigval_t.h>
+
+1643909547 /usr/include//bits/types/sigevent_t.h
+	<bits/wordsize.h>
+	<bits/types.h>
+	<bits/types/__sigval_t.h>
+
+1643909547 /usr/include//bits/sigevent-consts.h
+
+1643909547 /usr/include//bits/sigaction.h
+
+1643909547 /usr/include//bits/sigcontext.h
+	<bits/types.h>
+
+1643909547 /usr/include//bits/types/stack_t.h
+	<stddef.h>
+
+1643909548 /usr/include//sys/ucontext.h
+	<features.h>
+	<bits/types.h>
+	<bits/types/sigset_t.h>
+	<bits/types/stack_t.h>
+
+1643909547 /usr/include//bits/sigstack.h
+
+1643909547 /usr/include//bits/sigstksz.h
+	<unistd.h>
+
+1643909552 /usr/include//unistd.h
+	<features.h>
+	<bits/posix_opt.h>
+	<bits/environments.h>
+	<bits/types.h>
+	<stddef.h>
+	<bits/confname.h>
+	<bits/getopt_posix.h>
+	<bits/unistd.h>
+	<bits/unistd_ext.h>
+
+1643909552 /usr/include//bits/posix_opt.h
+
+1643909552 /usr/include//bits/environments.h
+	<bits/wordsize.h>
+
+1643909552 /usr/include//bits/confname.h
+
+1643909552 /usr/include//bits/unistd.h
+
+1643909552 /usr/include//bits/unistd_ext.h
+	"linux/close_range.h"
+
+1643738358 /usr/include//linux/close_range.h
+
+1643909547 /usr/include//bits/ss_flags.h
+
+1643909547 /usr/include//bits/types/struct_sigstack.h
+
+1643909547 /usr/include//bits/sigthread.h
+	<bits/types/__sigset_t.h>
+
+1643909547 /usr/include//bits/signal_ext.h
+
+1641608992 /usr/include/SDL2/SDL_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1641608992 /usr/include/SDL2/SDL_scancode.h
+	"SDL_stdinc.h"
+
+1641608992 /usr/include/SDL2/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1641608992 /usr/include/SDL2/SDL_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641676436 /usr/include/SDL2/SDL_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641848981 /usr/include/SDL2/SDL_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641608992 /usr/include/SDL2/SDL_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+

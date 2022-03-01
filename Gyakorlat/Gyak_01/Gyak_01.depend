@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1646138247 source:/home/marci/Codeblocks/Grafika/Gyak_01/main.c
+	<stdio.h>
+	<stdlib.h>
+
