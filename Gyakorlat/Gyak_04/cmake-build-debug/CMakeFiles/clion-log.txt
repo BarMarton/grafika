@@ -1,0 +1,1 @@
+CMakeLists.txt not found in /home/marci/CLionProjects/Gyak_04 Select CMakeLists.txt

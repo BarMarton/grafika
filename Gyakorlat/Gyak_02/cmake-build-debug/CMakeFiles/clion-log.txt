@@ -1,0 +1,10 @@
+/home/marci/Programs/clion-2021.3.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/marci/Programs/clion-2021.3.3/bin/ninja/linux/ninja -G Ninja /home/marci/CLionProjects/Gyak_02
+CMake Error at CMakeLists.txt:7 (add_executable):
+  add_executable cannot create target "Gyak_02" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory "/home/marci/CLionProjects/Gyak_02".  See documentation
+  for policy CMP0002 for more details.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/marci/CLionProjects/Gyak_02/cmake-build-debug/CMakeFiles/CMakeOutput.log".
